@@ -1,0 +1,62 @@
+body{
+    background-image: url(../images/home/background.jpg);
+}
+
+#intro{
+    padding-top: 25px;
+    margin: 0 150px;
+    padding-bottom: 25px;
+    transition: all 500ms;
+}
+
+#intro .link{
+    text-decoration: none;
+    color: white;
+}
+
+#intro #ps2{
+    transition: all 200ms;
+    text-decoration: underline;
+}
+
+#intro #ps2:hover{
+    color: rgb(29, 29, 216);
+}
+
+#intro #gamecube{
+    transition: all 200ms;
+    text-decoration: underline;
+}
+
+#intro #gamecube:hover{
+    color: purple;
+}
+
+#intro #xbox{
+    transition: all 200ms;
+    text-decoration: underline;
+}
+
+#intro #xbox:hover{
+    color: greenyellow;
+}
+
+main h3{
+    text-align: left;
+    padding-left: 1em;
+    text-align: center;
+    text-shadow: -1px 1px 0px black, 1px 1px 0px black, 1px -1px 0px black, -1px -1px 0px black;
+}
+
+@media only screen and (max-width: 520px){
+    #intro{
+        margin: 0 5px;
+    }
+    header h1{
+        font-size: 3.5em;
+    }
+
+    header h2{
+        font-size: 1.5em;
+    }
+}

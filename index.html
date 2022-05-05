@@ -4,44 +4,66 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link rel ="icon" href="images/icon.png">
         <link rel="stylesheet" href = "styles/main.css">
-        <title>Final</title>
+        <link rel="stylesheet" href = "styles/home.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto+Slab&display=swap" rel="stylesheet">
+        
+        <title>Sixth Generation Consoles</title>
     </head>
     <body>
        <header>
             <h1>
-                Sixth Generation of Video Game Consoles
+                Sixth Generation Video Game Consoles
             </h1>
             <h2>
-                Under Construction
+                The sixth generation of video game consoles are some of the most nostalgic and entertaining consoles to have been created thus far.
             </h2>
-            <p>
-                This website will discuss the four main consoles of the 6th generation of video game consoles. These consoles include the Dreamcast, Playstation 2, Gamecube, and original Xbox. Within each page, one console will be discussed, and I plan to discuss
-            </p>
-            <ul>
-                <li>
-                    System specifications
-                </li>
-                <li>
-                    Some highlight games
-                </li>
-                <li>
-                    Legacy
-                </li>
-                <li>
-                    Console development
-                </li>
-            </ul>
-            <p>
-                of each respective console.
-            </p>
-       </header> 
-       <main>
 
+       </header> 
+       <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="ps2.html">Playstation 2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="gamecube.html">Gamecube</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="xbox.html">Xbox</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+       <main>
+            <h3 id="intro">
+                In the late 90s, Sega released their final console, the Dreamcast, and began the sixth generation of consoles. Following the Dreamcast, the
+                <a class = "link" id = "ps2" href = "ps2.html">Playstation 2</a> released, and would eventually become the best selling video game of all time. Shortly after the Playstation 2, the <a class = "link" id = "gamecube" href = "gamecube.html">Nintendo Gamecube</a> would release and would ultimately come in third place in the console race during this generation and would ultimately change Nintendo's stance on console development forever. Finally, in 2004, Microsoft released the final major console of the sixth generation, the <a class = "link" id = "xbox" href = "xbox.html">Xbox,</a> and would end up second to the Playstation 2, but was not able sell anywhere near the Playstation 2's lofty sales numbers. The sixth generation would also end an era for Sega, as after the Dreamcast's failure to sell after the launch of the Playstation 2, they would become a third-party publisher and publish games for the now three major consoles. 
+            </h3>
        </main>
 
-        <footer>
+       <script>
+        window.onload = function() {
+            var d = new Date();
+            document.getElementById("copyright").innerHTML = d.getFullYear();
+        }
+    </script>
 
-        </footer>
+    <footer>
+        <p>&copy; <span id = "copyright"></span> Edward Fantasia Productions</p>
+    </footer>
     </body>
 </html>
